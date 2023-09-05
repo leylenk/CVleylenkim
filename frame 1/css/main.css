@@ -147,7 +147,7 @@ body {
   text-align: left;
 }
 .v32_8 {
-  width: 740px;
+  width: 950px;
   height: 160px;
   background: url("../images/v32_8.png");
   background-repeat: no-repeat;
@@ -159,6 +159,17 @@ body {
   left: 71px;
   overflow: hidden;
 }
+.v40_2 {
+  width: 126px;
+  height: 120px;
+  background: rgba(0,0,0,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 824px;
+  border: 1px solid rgba(0,0,0,1);
+  overflow: hidden;
+}
 .v7_53 {
   width: 126px;
   height: 120px;
@@ -167,6 +178,7 @@ body {
   position: absolute;
   top: 0px;
   left: 614px;
+  border: 1px solid rgba(0,0,0,1);
   overflow: hidden;
 }
 .v7_52 {
@@ -177,6 +189,7 @@ body {
   position: absolute;
   top: 0px;
   left: 409px;
+  border: 1px solid rgba(0,0,0,1);
   overflow: hidden;
 }
 .v7_51 {
@@ -187,6 +200,7 @@ body {
   position: absolute;
   top: 0px;
   left: 205px;
+  border: 1px solid rgba(0,0,0,1);
   overflow: hidden;
 }
 .v7_50 {
@@ -197,7 +211,20 @@ body {
   position: relative;
   top: 0px;
   left: 0px;
+  border: 1px solid rgba(0,0,0,1);
   overflow: hidden;
+}
+.v40_3 {
+  width: 93px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 136px;
+  left: 841px;
+  font-family: Inter;
+  font-weight: Semi Bold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
 }
 .v7_57 {
   width: 93px;
@@ -268,4 +295,13 @@ body {
   font-size: 50px;
   opacity: 1;
   text-align: center;
+}
+.v39_25 {
+  width: 362px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 770px;
+  left: 959px;
+  opacity: 1;
+  text-align: left;
 }
