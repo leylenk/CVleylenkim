@@ -1,0 +1,278 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.framedatospersonales {
+  width: 100%;
+  height: 1024px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.footer {
+  width: 100%;
+  height: 96px;
+  background: rgba(75,75,75,1);
+  opacity: 1;
+  position: absolute;
+  top: 928px;
+  left: 0px;
+  overflow: hidden;
+}
+.header {
+  width: 100%;
+  height: 175px;
+  background: rgba(249,197,102,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.navbotones {
+  width: 100%;
+  height: 77px;
+  background: url("../images/v1_37.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 51px;
+  left: 100px;
+  overflow: hidden;
+
+}
+.navcompetencias {
+  width: 234px;
+  height: 77px;
+  background: rgba(255,152,112,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 1028px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  overflow: hidden;
+
+  
+}
+.navconocimientos {
+  width: 234px;
+  height: 77px;
+  background: rgba(255,152,112,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 693px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  overflow: hidden;
+}
+.navestudios {
+  width: 234px;
+  height: 77px;
+  background: rgba(255,152,112,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 337px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  overflow: hidden;
+}
+.navdatospersonales {
+  width: 234px;
+  height: 77px;
+  background: rgba(255,152,112,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  overflow: hidden;
+
+  
+}
+.footertext {
+  width: 100%;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 958px;
+  left: 53px;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 22px;
+  opacity: 1;
+  text-align: right;
+}
+.headertext {
+  width: 100%;
+  height: 29px;
+  background: url("../images/v11_6.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 77px;
+  left: 115px;
+  overflow: hidden;
+}
+.v4_42headertextcompetencias {
+  width: 169px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 0px;
+  left: 1045px;
+  font-family: Inter;
+  font-weight: Semi Bold;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.v4_41headertextconocimientos {
+  width: 176px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 0px;
+  left: 707px;
+  font-family: Inter;
+  font-weight: Semi Bold;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.v4_40headertextestudios {
+  width: 101px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 0px;
+  left: 390px;
+  font-family: Inter;
+  font-weight: Semi Bold;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.v4_39headertextdatospersonales {
+  width: 203px;
+  color: rgba(255,255,255,1);
+  position: relative;
+  top: 0px;
+  left: 0px;
+  font-family: Inter;
+  font-weight: Semi Bold;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.titulo {
+  width: 431px;
+  color: rgba(75,75,75,1);
+  position: absolute;
+  top: 235px;
+  left: 694px;
+  font-family: Inter;
+  font-weight: Black;
+  font-size: 50px;
+  opacity: 1;
+  text-align: left;
+  font-weight: bold;
+}
+
+.contenedor{
+  width: 80%;
+  margin: 0 auto;
+  padding: 30px 10px;
+  text-align: justify;
+  display: flex;
+
+}
+
+.subtitulo {
+  width: 308px;
+  color: rgba(75,75,75,1);
+  position: absolute;
+  top: 405px;
+  left: 81px;
+  font-family: Inter;
+  font-weight: Bold;
+  font-size: 36px;
+  opacity: 1;
+  text-align: left;
+}
+.infobox {
+  width: 843px;
+  height: 490px;
+  background: rgba(217,217,217,1);
+  opacity: 1;
+  position: absolute;
+  top: 380px;
+  left: 505px;
+  border-top-left-radius: 56px;
+  border-top-right-radius: 56px;
+  border-bottom-left-radius: 56px;
+  border-bottom-right-radius: 56px;
+  overflow: hidden;
+}
+.infotext {
+  width: 335px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 422px;
+  left: 563px;
+  font-family: Inter;
+  font-weight: Semi Bold;
+  font-size: 27px;
+  opacity: 1;
+  text-align: left;
+}
+.v20_3infotext {
+  width: 335px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 422px;
+  left: 1003px;
+  font-family: Inter;
+  font-weight: Semi Bold;
+  font-size: 27px;
+  opacity: 1;
+  text-align: left;
+}
+.imagenpersonal {
+  width: 266px;
+  height: 339px;
+  background: url("../images/v14_9.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 490px;
+  left: 102px;
+  border-top-left-radius: 45px;
+  border-top-right-radius: 45px;
+  border-bottom-left-radius: 45px;
+  border-bottom-right-radius: 45px;
+  overflow: hidden;
+}
+
+.cursiva {
+  font-style: italic;
+}
+
