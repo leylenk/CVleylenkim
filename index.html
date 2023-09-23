@@ -1,32 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi curriculum</title>
-    <link rel="stylesheet" href="css estilos/estilo.css">
-    <style>
-        li{
-            font-size: x-large;
-            background-color: blueviolet;
-        }
-        h1{
-            color: brown;
-        }
-    </style>
+    <title>Curriculum Vitae | Leylen Kim</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alata&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <h1 style="color: rgb(146, 146, 236)"> MI CURRICULUM</h1>
-    <img src="img/fotopersona.jpg" alt="foto persona" width="104" height="142"> 
-    <ul>
-        <a href="index2.html"><li>Datos personales</li></a>
-        <a href="competencias.html"><li> Competencias</li></a>
-        <a href="educacion.html"><li> Educacion</li></a>
-        <a href="experiencia.html"><li> Experiencia</li></a>
+    <header>
+        <!-- <div id="divLogo">
+            <a href="index.html"><img src="img/logouade.png" alt="Logo" id="logoUade"></a>
+        </div> -->
+        <nav>
+            <!-- aca abajo lo del menu hamburguesa!! -->
+            <input type="checkbox" id="menu">  
+            <label for="menu"> ☰ </label>
+            <ul class="barraNav">
+                <li><a href="index.html"> Inicio </a></li>
+                <li><a href="html/datospersonales.html"> Datos Personales </a></li>
+                <li><a href="html/estudios.html"> Estudios </a></li>
+                <li><a href="html/conocimientos.html"> Conocimientos </a></li>
+                <li><a href="html/competencias.html"> Competencias </a></li>
+            </ul>
+        </nav>
+    </header>
 
-    </ul>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam repellendus nihil repudiandae aut magnam fugit odit voluptate fuga similique temporibus amet saepe, doloribus sunt perspiciatis, ex facilis officiis deserunt quia?</p>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore nesciunt quis eveniet culpa eum, repellat at voluptate, consectetur quam, quae dolorum rem quos sequi molestiae aut magni velit? Laboriosam, culpa?</p>
+    <main>
+        <!-- <div>
+            <img src="" alt="Imagen Grupal" class="imagenGrupal">
+        </div> -->
+        <br><br>
 
+        <div class="bienvenidaTitulo">
+            <h2> ¡Bienvenido/a a mi Currículum Vitae! </h2>
+            <br><br>
+            <!-- <h2> Leylen Kim </h2> -->
+        </div>
+        <div class="bienvenidaTexto">
+            <p> ¡Hola! Soy <span class="cursiva">Leylen Kim </span> y te invito a explorar mi currículum y conocerme un poco más.</p>
+            <br>
+            <p>Si tienes alguna pregunta o deseas conocer más detalles, no dudes en contactarme.</p>
+            <a href="mailto:leykim@uade.edu.ar">leykim@uade.edu.ar</a>
+        </div>
+        <br>
+
+        <img src="img/fotopersonal.png" alt="Foto personal">
+
+        
+    </main>
+
+    <footer>
+        <p> Todos los derechos reservados© </p>
+    </footer>
 </body>
+
 </html>
