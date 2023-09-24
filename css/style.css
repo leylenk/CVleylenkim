@@ -132,67 +132,8 @@ h3{
 }
 
 
-@media all and (max-width: 700px) {  /*cuando el dispositivo es como máximo de 700px   HAMBURGUESA*/
 
-    input:checked  ~ ul{   /*muestra todas el contenido de todas las etiquetas ul */
-        display:block;
-      }
-  
-    input:checked ~ label {   /*muestra todo el contenido de todas las etiquetas label */
-        background: #D4D4D4;
-        }
-  
-    label:hover{                /*cambia el color de ☰ */
-        /* background: grey; */
-        background: rgba(255,152,112,1);
-      }
-  
-    li{                         /*elimina el margen  de cada botón */
-        margin: 0px;
-        text-align: left;
-    }
-    nav{
-        /* background-color: #242424; */
-        background-color: #4B4B4B;
-    } 
-    label {                      /* dibuja la etiqueta ☰  con formato botón */
-        box-sizing: border-box;
-        display: block;
-        /* border: 1px solid #242424; */
-        border: 1.1px solid white;
-        color: white;
-        border-radius: 5px;
-        width: 30px;
-        height: 30px;
-        line-height: 30px;
-        font-weight: bold;
-        text-align: center;
-        user-select: none;
-        /* background-color: #D4D4D4; */
-        /* background-color: #242424; */
-        background-color: #4B4B4B;
-    }
-      
-  
-    /* ul{                          /*deja de mostrar el bloque contenedor de los botones horizontales */
-       /* display: none; */
-       /* background-color:white; */
-       /* background-color: #242424;
-    } */ 
 
-    .barraNav{
-        display: none; /*deja de mostrar el bloque contenedor de los botones horizontales */
-        /* background-color: #242424; */
-        background-color: #4B4B4B;
-       /* background-color:white; */
-       
-    }
-
-    .contenedorflex{
-        flex-direction: column;
-        justify-content: center;
-     }  
-  }
 
 .infotext{
     width: 658px; 
@@ -259,7 +200,7 @@ h3{
     flex-wrap: wrap;
 }
 
-.seccionizq{
+/* .seccionizq{
     width: 266px;
     height: 535px;
     background-repeat: no-repeat;
@@ -270,7 +211,7 @@ h3{
     top: 267px;
     left: 122px;
     overflow: hidden;
-}
+} */
 
 .contenedorflex{
     display: flex;
@@ -326,3 +267,133 @@ img {
 
 
 
+/* MEDIA QUERIES */
+
+@media all and (max-width: 700px) {  /*cuando el dispositivo es como máximo de 700px   HAMBURGUESA*/
+
+    input:checked  ~ ul{   /*muestra todas el contenido de todas las etiquetas ul */
+        display:block;
+      }
+  
+    input:checked ~ label {   /*muestra todo el contenido de todas las etiquetas label */
+        background: #D4D4D4;
+        }
+  
+    label:hover{                /*cambia el color de ☰ */
+        /* background: grey; */
+        background: rgba(255,152,112,1);
+      }
+  
+    li{                         /*elimina el margen  de cada botón */
+        margin: 0px;
+        text-align: left;
+    }
+    nav{
+        /* background-color: #242424; */
+        background-color: #4B4B4B;
+        width: auto;
+        
+    } 
+    label {                      /* dibuja la etiqueta ☰  con formato botón */
+        box-sizing: border-box;
+        display: block;
+        /* border: 1px solid #242424; */
+        border: 1.1px solid white;
+        color: white;
+        border-radius: 5px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-weight: bold;
+        text-align: center;
+        user-select: none;
+        /* background-color: #D4D4D4; */
+        /* background-color: #242424; */
+        background-color: #4B4B4B;
+    }
+      
+  
+    /* ul{                          /*deja de mostrar el bloque contenedor de los botones horizontales */
+       /* display: none; */
+       /* background-color:white; */
+       /* background-color: #242424;
+    } */ 
+
+    .barraNav{
+        display: none; /*deja de mostrar el bloque contenedor de los botones horizontales */
+        /* background-color: #242424; */
+        background-color: #4B4B4B;
+       /* background-color:white; */
+       
+    }
+
+    .barraNav li {
+        padding-right: 13%; /*  JJJJ  */
+    }
+
+    .contenedorflex{
+        /* margin-bottom: 10px; */
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    article{
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        width: fit-content;
+        overflow: hidden;
+        
+        /* size-adjust:inherit; */
+        /* width: 10%;
+        padding: 1500%; */
+    }
+
+    .infotext{
+        font-size:small;
+        width: fit-content;
+    }
+    img{
+        width: auto;
+    }
+}
+
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 25px;
+    }
+
+    .cursiva{
+        font-size: small;
+    }
+
+    .infotext{
+        font-size:small;
+        width: fit-content;
+    }
+
+    main {
+        overflow-x: hidden;
+    }
+
+    img{
+        size-adjust: 30%;
+    }
+
+    footer {
+        font-size: 12px;
+        position: static;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1024px) {
+    main {
+        overflow-x: hidden;
+    }
+
+    footer {
+        font-size: 15px;
+        position: fixed;
+    }
+}
