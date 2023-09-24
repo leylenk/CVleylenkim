@@ -147,32 +147,6 @@ h3{
     padding-left: 10%;
 }
 
-
-.box{
-    width: 783px;
-    height: 587px;
-    background: rgba(217,217,217,1);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    position: relative;
-    opacity: 1;
-    position: absolute;
-    top: 337px;
-    left: 509px;
-    overflow: hidden;
-    border-top-left-radius: 56px;
-    border-top-right-radius: 56px;
-    border-bottom-left-radius: 56px;
-    border-bottom-right-radius: 56px;
-
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
 .contenedorflex{
     display: flex;
     align-items: center;
@@ -181,7 +155,6 @@ h3{
     height: 900px;
     background-position: right;
     background-repeat: no-repeat;
-    padding: 40px;
     max-width: 1200px;
     margin: 0 auto;
     flex-direction: row;
