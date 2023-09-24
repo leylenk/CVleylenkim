@@ -1,0 +1,328 @@
+html{ height: 100%;}
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Murecho;
+}
+
+body{
+    background-color: #fff;
+    position: relative;
+    min-height: 100vh;
+
+}
+
+main{ 
+    position: relative;
+}
+
+.barraNav { 
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #242424; */
+    background-color: #4B4B4B;
+    /* font-family: 'Alata', sans-serif; */
+    position: sticky;
+    font-weight:bolder;
+}
+
+
+div h2 {
+    padding-top: 2%;
+    color: rgba(255,152,112,1);;
+} 
+
+/* /* div h3 {
+    padding-top: 2%;
+} */
+
+input {                        
+    display: none;     
+  }
+label {                       
+    display:none;
+}
+
+nav li {
+    padding: 2%;
+}
+
+li {
+    padding-bottom: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* nav ul img {
+    padding-right: 50%;
+} */
+
+nav ul li :hover { 
+    color: rgba(255,152,112,1);;
+}
+
+.bienvenidaTitulo {
+    padding-left: 10%;
+    padding-top: 4%;
+    /* font-family: 'Alata', sans-serif; */
+    /* font-weight:bolder; */
+    font-weight: 2500;
+    font-size: x-large;
+}
+
+.bienvenidaTexto {
+    padding-left: 10%;
+    font-size: large;
+    /* font-family: 'Alata', sans-serif; */
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255,152,112,1);;
+    color: white;
+    width: 100%;
+    text-align: center;
+    /* font-family: 'Alata', sans-serif; */
+    font-size:smaller;
+}
+
+
+h1{
+    padding-left: 10%;
+    padding-top: 4%;
+    /* font-family: Alata; */
+    width: 250px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 20px;
+    left: 8px;
+    font-size: 32px;
+    opacity: 1;
+    text-align: left;
+    font-weight: 1000;
+    line-height: normal;
+    font-weight:bolder;
+}
+
+h3{
+    width: 117px;
+    color: rgba(255,152,112,1);
+    position:sticky;
+    top: 80px;
+    left: 35px;
+    /* font-family: Alata; */
+    font-size: 24px;
+    opacity: 1;
+    text-align: left;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+.flex-container {  /* ?????? */
+    flex-wrap: wrap;
+}
+
+
+@media all and (max-width: 700px) {  /*cuando el dispositivo es como máximo de 700px   HAMBURGUESA*/
+
+    input:checked  ~ ul{   /*muestra todas el contenido de todas las etiquetas ul */
+        display:block;
+      }
+  
+    input:checked ~ label {   /*muestra todo el contenido de todas las etiquetas label */
+        background: #D4D4D4;
+        }
+  
+    label:hover{                /*cambia el color de ☰ */
+        /* background: grey; */
+        background: rgba(255,152,112,1);
+      }
+  
+    li{                         /*elimina el margen  de cada botón */
+        margin: 0px;
+        text-align: left;
+    }
+    nav{
+        /* background-color: #242424; */
+        background-color: #4B4B4B;
+    } 
+    label {                      /* dibuja la etiqueta ☰  con formato botón */
+        box-sizing: border-box;
+        display: block;
+        /* border: 1px solid #242424; */
+        border: 1.1px solid white;
+        color: white;
+        border-radius: 5px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-weight: bold;
+        text-align: center;
+        user-select: none;
+        /* background-color: #D4D4D4; */
+        /* background-color: #242424; */
+        background-color: #4B4B4B;
+    }
+      
+  
+    /* ul{                          /*deja de mostrar el bloque contenedor de los botones horizontales */
+       /* display: none; */
+       /* background-color:white; */
+       /* background-color: #242424;
+    } */ 
+
+    .barraNav{
+        display: none; /*deja de mostrar el bloque contenedor de los botones horizontales */
+        /* background-color: #242424; */
+        background-color: #4B4B4B;
+       /* background-color:white; */
+       
+    }
+
+    .contenedorflex{
+        flex-direction: column;
+        justify-content: center;
+     }  
+  }
+
+.infotext{
+    width: 658px; 
+    position: relative;
+    top: 32px;
+    left: 0px;
+    /* font-family: Alata; */
+    font-weight: Regular;
+    font-size: 15px;
+    opacity: 1;
+    text-align: left;
+}
+
+.cursiva {
+    font-style: italic;
+    color:#4B4B4B;
+    /* font-weight: bolder; */
+    font-weight: bolder;
+    font-size: large;
+  }
+
+.foto{
+    width: 266px;
+    height: 339px;
+    background: url(../img/fotopersonal.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 196px;
+    left: 100px;
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    overflow: hidden;
+    padding-left: 10%;
+}
+
+
+.box{
+    width: 783px;
+    height: 587px;
+    background: rgba(217,217,217,1);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    opacity: 1;
+    position: absolute;
+    top: 337px;
+    left: 509px;
+    overflow: hidden;
+    border-top-left-radius: 56px;
+    border-top-right-radius: 56px;
+    border-bottom-left-radius: 56px;
+    border-bottom-right-radius: 56px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.seccionizq{
+    width: 266px;
+    height: 535px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 267px;
+    left: 122px;
+    overflow: hidden;
+}
+
+.contenedorflex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* width: 100px; */
+    width: 450px;
+    height: 900px;
+    background-position: right;
+    background-repeat: no-repeat;
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+/* .textoflex{     NO LO ESTOY USANDO!
+    margin: 2em;
+} */
+
+
+article{
+    background-color: rgba(217,217,217,1);
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    width: 783px;
+}
+
+article p{
+    margin: 0.7rem;
+}
+
+.foto1{
+    background-position: center center; 
+    border-radius: 45px;
+    text-align: center;
+    overflow: hidden;
+}
+
+img {
+    display: block;
+    width: 230px;
+    height: 250px;
+    margin: auto;
+}
+
+.vinculo{
+    font-style: italic;
+}
+
+
+
