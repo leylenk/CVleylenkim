@@ -192,8 +192,8 @@ img {
 }
 
 
-
-@media all and (max-width: 700px) {  
+/* @media all and (max-width: 700px) { */  
+@media all and (max-width: 970px) {  
     input:checked  ~ ul{   
         display:block;
       }
@@ -260,21 +260,13 @@ img {
     img{
         width: auto;
     }
-}
-
-
-@media (max-width: 768px) {
+    
     h1 {
         font-size: 25px;
     }
 
     .cursiva{
         font-size: small;
-    }
-
-    .infotext{
-        font-size:small;
-        width: fit-content;
     }
 
     main {
