@@ -128,25 +128,6 @@ h3{
     font-size: large;
   }
 
-.foto{
-    width: 266px;
-    height: 339px;
-    background: url(../img/fotopersonal.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    opacity: 1;
-    position: absolute;
-    top: 196px;
-    left: 100px;
-    border-top-left-radius: 45px;
-    border-top-right-radius: 45px;
-    border-bottom-left-radius: 45px;
-    border-bottom-right-radius: 45px;
-    overflow: hidden;
-    padding-left: 10%;
-}
-
 .contenedorflex{
     display: flex;
     align-items: center;
@@ -210,11 +191,12 @@ img {
         margin: 0px;
         text-align: left;
     }
+    
     nav{
         background-color: #4B4B4B;
         width: auto;
-        
     } 
+    
     label {                     
         box-sizing: border-box;
         display: block;
@@ -259,6 +241,7 @@ img {
     
     img{
         width: auto;
+        size-adjust: 30%;
     }
     
     h1 {
@@ -271,10 +254,6 @@ img {
 
     main {
         overflow-x: hidden;
-    }
-
-    img{
-        size-adjust: 30%;
     }
 
     footer {
