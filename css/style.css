@@ -5,17 +5,6 @@ html{ height: 100%;}
     font-family: Murecho;
 }
 
-body{
-    background-color: #fff;
-    position: relative;
-    min-height: 100vh;
-
-}
-
-main{ 
-    position: relative;
-}
-
 .navbarra { 
     list-style-type: none;
     display: flex;
@@ -38,8 +27,23 @@ nav li {
     padding: 2%;
 }
 
+nav ul li :hover { 
+    color: rgba(255,152,112,1);;
+}
+
 li {
-    padding-bottom: 10px;
+    padding-bottom: 12px;
+}
+
+body{
+    background-color: #fff;
+    position: relative;
+    min-height: 100vh;
+
+}
+
+main{ 
+    position: relative;
 }
 
 a {
@@ -47,37 +51,21 @@ a {
     text-decoration: none;
 }
 
-nav ul li :hover { 
-    color: rgba(255,152,112,1);;
-}
-
 .bienvenidaTitulo {
-    padding-left: 10%;
-    padding-top: 4%;
+    padding-left: 9%;
+    padding-top: 3%;
     font-weight: 2500;
     font-size: x-large;
 }
 
 .bienvenidaTexto {
-    padding-left: 10%;
+    padding-left: 9%;
     font-size: large;
 }
 
-footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    background-color: rgba(255,152,112,1);;
-    color: white;
-    width: 100%;
-    text-align: center;
-    font-size:smaller;
-}
-
-
 h1{
-    padding-left: 10%;
-    padding-top: 4%;
+    padding-left: 9%;
+    padding-top: 3%;
     width: 250px;
     color: rgba(0,0,0,1);
     position: absolute;
@@ -86,9 +74,9 @@ h1{
     font-size: 32px;
     opacity: 1;
     text-align: left;
-    font-weight: 1000;
+    /*font-weight: 1000;*/
     line-height: normal;
-    font-weight:bolder;
+    font-weight: bolder;
 }
 
 h2 {
@@ -109,7 +97,6 @@ h3{
     line-height: normal;
 }
 
-
 .infotext{
     width: 658px; 
     position: relative;
@@ -119,6 +106,18 @@ h3{
     font-size: 15px;
     opacity: 1;
     text-align: left;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255,152,112,1);
+    text-align: center;
+    font-size: smaller;
+    color: white;
+    width: 100%;
+   
 }
 
 .cursiva {
@@ -252,23 +251,9 @@ img {
         font-size: small;
     }
 
-    main {
-        overflow-x: hidden;
-    }
-
     footer {
         font-size: 12px;
         position: static;
     }
 }
 
-@media (min-width: 1024px) and (max-width: 1024px) {
-    main {
-        overflow-x: hidden;
-    }
-
-    footer {
-        font-size: 15px;
-        position: fixed;
-    }
-}
