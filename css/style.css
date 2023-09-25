@@ -26,12 +26,6 @@ main{
     font-weight:bolder;
 }
 
-
-div h2 {
-    padding-top: 2%;
-    color: rgba(255,152,112,1);;
-} 
-
 input {                        
     display: none;     
   }
@@ -96,6 +90,11 @@ h1{
     line-height: normal;
     font-weight:bolder;
 }
+
+h2 {
+    padding-top: 2%;
+    color: rgba(255,152,112,1);;
+} 
 
 h3{
     width: 117px;
